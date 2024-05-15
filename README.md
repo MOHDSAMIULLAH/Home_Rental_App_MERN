@@ -1,7 +1,13 @@
 # Home Rentals Application
 
 ## Deployed Link  :  https://home-rental-app-mern.vercel.app/
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 This Full Stack Home Rentals Application is built using React JS, Redux, Node JS, MongoDB, JWT authentication, and Material UI. It enables users to manage property listings, bookings, wishlists, and more.
+
 
 ## Key Features
 
