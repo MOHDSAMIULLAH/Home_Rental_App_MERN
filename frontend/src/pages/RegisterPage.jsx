@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import "../styles/Register.scss";
 
 const RegisterPage = () => {
@@ -122,7 +122,7 @@ const RegisterPage = () => {
           )}
           <button type="submit" disabled={!passwordMatch}>REGISTER</button>
         </form>
-        <a href="/login">Already have an account? Log In Here</a>
+        <Link to="/login">Already have an account? Log In Here</Link>
       </div>
     </div>
   );
